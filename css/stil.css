@@ -1,0 +1,378 @@
+/*google fonts*/
+/* font-family: 'Arsenal', sans-serif; */
+/* font-family: 'Advent Pro', sans-serif; */
+/* font-family: 'Prata', serif; */
+@font-face {
+  font-family: emre;
+  src: url(../fonts/AdobeClean-SemiCnIt.otf\ -\ Kısayol.lnk);
+}
+/* fonts*/
+body{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    width: 100%;
+    background-color:#fff;
+}
+#nav{
+    width:100%;
+  height: 140px;
+  padding: 35px 120px 56px 105px;
+  background-color: #000;
+  position: relative;
+}
+.nav-text{
+    flex-direction: column;
+}
+.nav-text-1{
+    width: 228px;
+    height: 80px;
+    font-family: Harry-Plain;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.73;
+    letter-spacing: 2.94px;
+    text-align: left;
+    color: #fff; 
+}
+.nav-text-2{
+    width: 178px;
+    height: 13px;
+    font-family: PTSans;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #c3c3c3;
+}
+.rectangle{
+    width: 69px;
+    height: 55px;
+    position: absolute;
+    right: 3%;
+    top: 35%;
+    padding: 19px 10px 18px 11px;
+    border: solid 2px #fff;
+    float: right;
+}
+.line1{
+    width: 37px;
+    height: 2px;
+    margin: 0 6px 6px 5px;
+    background-color: #fff;
+}
+.line2{
+    width: 48px;
+    height: 2px;
+    margin: 6px 0;
+    background-color: #fff;  
+}
+/*SECTİON İTEN1 START*/
+.item-1{
+    width: 100%;
+    height:auto;
+}
+.card-1{
+    width: 100%;
+    height:100%; 
+}
+.img-1{
+    width: 100%;
+    height:auto;
+}
+#item-1-text{
+    font-family: 'Arsenal', sans-serif;
+  font-size: 1.5vw;
+  line-height: 1.3;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: #535353;
+ padding-top: 20%;
+}
+#item-1-text-2{
+  font-size: 2vw;
+  font-weight: normal;
+  line-height: 1.38;
+  font-family: 'Advent Pro', sans-serif;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  text-align: center;
+ padding-top: 20%;
+}
+#item-1-text-2::after{
+    content: "";
+    width:30%;
+    height: 2px;
+    background-color: #000;
+    display:block;
+  text-align: center;
+  margin: auto;
+}
+/*SECTİON İTEM-2*/
+ .item-2{
+     width: 100%;
+     height:auto;
+ }
+ .committed-2{
+  font-family: 'Arsenal', sans-serif;
+  font-size: 1.5vw;
+  line-height: 1.3;
+  letter-spacing: 1.08px;
+  text-align: center;
+  color: #535353;
+  padding-top:  25%;
+   display: block;
+ }
+ .text-style-1{
+    color: #aa2323;
+ }
+ .ARCHITEKTUR{
+    font-size: 1.5vw;
+    font-weight: normal;
+    line-height: 1.38;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    text-align: center;
+   padding-top: 55%;
+   display: block;
+ }
+ .ARCHITEKTUR::after{
+    content: "";
+    width:40%;
+    height: 2px;
+    background-color: #000;
+    display:block;
+  text-align: center;
+  margin: auto;  
+  margin-left: 25%;
+ }
+.item-3{
+    width: 100%;
+    height: auto;
+}
+/*SECTİON-3 İTEM-3*/
+ #projekte{
+    font-size: 1.5vw;
+    line-height: 1.38;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    text-align: center;
+   padding-top: 20%;
+   display: block;
+ }
+ #projekte::after{
+    content: "";
+    width: 35%;
+    height: 2px;
+    background-color: #000;
+    display:block;
+  text-align: center;
+  margin: auto;  
+ }
+ /*SECTŞON-4 İTEM-4*/
+ .item-4{
+     width: 100%;
+     height:auto;
+ }
+ .IMMOBILIEN{
+    font-size: 1.5vw;
+    font-weight: normal;
+    line-height: 1.38;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    text-align: center;
+   padding-top: 25%;
+   display: block;
+ }
+ .IMMOBILIEN::after{
+    content: "";
+    width:20%;
+    height: 2px;
+    background-color: #000;
+    display:block;
+  text-align: center;
+  margin: auto;  
+  margin-left: 38%;
+ }
+ .baurecht{
+    font-size: 1.5vw;
+    font-weight: normal;
+    line-height: 1.38;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    text-align: center;
+   padding-top: 50%;
+   display: block;
+ }
+ .baurecht::after{
+    content: "";
+    width:43%;
+    height: 2px;
+    background-color: #000;
+    display:block;
+  text-align: center;
+  margin: auto;  
+  margin-left: 25%;
+ }
+ /*SECTİON-5 İTEM-5*/
+.item-5{
+    width: 100%;
+    height: auto;
+}
+#projekte-2{
+    font-size: 1.5vw;
+    font-weight: normal;
+    line-height: 1.38;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    text-align: center;
+   padding-top: 50%;
+   display: block;
+ }
+ #projekte-2::after{
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: #000;
+    display:block;
+  text-align: center;
+  margin: auto;  
+ }
+ .sustainable{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.5vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 1.08px;
+    text-align: center;
+    color: #535353;
+    display: block;
+    padding-top: 25%;
+ }
+/*SECTİON-6 İTEM-6*/
+.item-6{
+    width: 100%;
+    height: auto;
+}
+.design{
+    font-size: 1.5vw;
+    font-weight: normal;
+    line-height: 1.38;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    text-align: center;
+   padding-top: 25%;
+   display: block;
+ }
+ .design::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #000;
+    display:block;
+  text-align: center;
+  margin: auto;  
+ }
+ .kontakt{
+    font-size: 1.5vw;
+    font-weight: normal;
+    line-height: 1.38;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    text-align: center;
+   padding-top:50%;
+   display: block;
+ }
+ .kontakt::after{
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: #000;
+    display:block;
+  text-align: center;
+  margin: auto;  
+ }
+/* SECTİON-7 İTEM-7*/
+.item-7{
+  width: 100%;
+  height: auto;
+}
+.footer-text{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: -12%;
+  font-size: 1.5vw;
+  font-family: 'Prata', serif;
+    font-weight: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #000;
+    text-align: center;
+}
+/*SECİON-8 İTEM-8*/
+.footer{
+    width: 100%;
+    height: auto;
+}
+.footer-icon{
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+.footer-icon-item{
+  padding-top: 1%;
+  padding-left: 30%;
+  display: flex;
+}
+.icon{
+  margin-left: 4%;
+}
+.footer-end{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-end-item-1{
+  padding-left: 3%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #000;
+  font-family: emre;
+}
+.footer-end-item-2{
+  padding-right: 3%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-family: AdobeClean;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #000;
+}
